@@ -63,3 +63,18 @@ body {
   height: 100%;
   background-color: $dark-overlay;
 }
+
+#video-play {
+  position: relative;
+  min-height: 200px;
+  background: url("../img/media.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: 0 -300;
+  text-align: center;
+  color: #fff;
+
+  a {
+    color: white;
+  }
+}
